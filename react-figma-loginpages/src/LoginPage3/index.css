@@ -1,0 +1,92 @@
+.login-page-3 {
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.login-page-3 .parent-first-part {
+  background-color: #1aebb7;
+  height: 100%;
+}
+
+.login-page-3 .child-row {
+  padding: 10px;
+}
+
+.login-page-3 .child-row .child-first-part {
+  /* background-color: #1aebb7; */
+  height: 100%;
+  /* border: 2px solid black; */
+}
+
+.login-page-3 .child-row {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
+  box-shadow: 0 0 5px rgba(120, 120, 120);
+}
+
+.login-page-3 .text-part {
+  width: 70%;
+  padding: 50px;
+}
+
+.login-page-3 input {
+  margin-top: 15px;
+  height: 50px;
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.25);
+  padding-left: 20px;
+  /* border-radius: 5px; */
+}
+.login-page-3 input:focus {
+  box-shadow: none;
+  /* border: none; */
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+.login-page-3 button {
+  height: 50px;
+  margin-top: 15px;
+  width: 50%;
+  background-color: #1aebb7;
+  color: white;
+  border: 1px solid black;
+  /* border-radius: 5px; */
+}
+
+.login-page-3 h1 {
+  font-size: 60px;
+  /* color: transparent; */
+  color: #8b8b8b;
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+.login-page-3 a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: #8b8b8b;
+}
+
+@media only screen and (max-width: 1000px) {
+	.login-page-3 {
+		min-height: 100vh;
+    max-height: auto !important;
+	overflow-y: scroll;
+  }
+
+  .login-page-3 .text-part {
+	margin-top: 100px;
+	width: 100% !important;
+	padding: 10px !important;
+  }
+  .login-page-3 .child-row {
+	padding: 10px;
+  }
+
+
+
+}
